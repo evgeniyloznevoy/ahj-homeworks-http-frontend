@@ -1,0 +1,67 @@
+.ticketswidget {
+  max-width: 50%;  
+  }
+  
+  .tickets {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add {
+    margin-right: 2rem;
+    margin-left: auto;
+    
+  }
+  
+  button {
+    height: 2rem;
+    border-radius: 5px;
+    background-color: white;
+  
+  }
+  
+  .row {
+    /* display: table-row; */
+    margin-top: 1rem;
+    vertical-align: baseline;
+    border: 1px black solid;
+    border-radius: 5px;
+  }
+  
+  .modal {
+    border: 2px black solid;
+    border-radius: 5px;
+    position: absolute;
+    padding: 1rem 1rem 2rem 1rem;
+  
+  }
+  
+  .hidden {
+    display: none;
+  } 
+  
+  .row div {
+    display: table-cell;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  
+  .row .title {
+    width: 50%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .modal {
+    border: 1px solid #495057;
+    width: 400px;
+    padding: 30px 47px;
+    margin: 0 20px;
+  }
+  
+  .modal input {
+    margin: 5px 0;
+  }
