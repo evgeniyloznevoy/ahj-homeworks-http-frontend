@@ -451,6 +451,10 @@
     "vue-template-compiler": "^2.7.10"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+    "test": "--passWithNoTests",
+>>>>>>> 381185d40edcf5963a6a0c07591eb013b859a6a9
     "build": "webpack --mode production",
     "lint": "eslint ."
   },
